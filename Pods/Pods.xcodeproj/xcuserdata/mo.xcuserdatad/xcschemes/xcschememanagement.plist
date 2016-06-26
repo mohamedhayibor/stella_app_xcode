@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JSQMessagesViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSQSystemSoundPlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-stella-bot.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-stella-botTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-stella-botUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>53BA4808D1025CDF77CC4ED748CB4D1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EBC798AD529012E375A3B614BCA1E1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F464B504AE36AD3B5B3EFB852C965DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9308FBFAB7AA4B2E1F7E89900FD73EF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B102F209C1FA58D0EB9EA7852A3527E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

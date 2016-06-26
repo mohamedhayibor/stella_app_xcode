@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43975D35363A893077DFC8FB /* libPods-stella-bot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8640DD1048A19EEB68EE97 /* libPods-stella-bot.a */; };
+		6AF80069EF9FFF5BEA09CB11 /* libPods-stella-botTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BA09F404BBDB71DBCBDF0B /* libPods-stella-botTests.a */; };
+		CD159A9A1D1F81CE009A3329 /* icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = CD159A991D1F81CE009A3329 /* icon.svg */; };
+		CD159A9C1D1F821D009A3329 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD159A9B1D1F821D009A3329 /* icon.png */; };
+		CD159AA01D1F8A89009A3329 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159A9E1D1F8A89009A3329 /* LoginViewController.m */; };
+		CD159AA11D1F8A89009A3329 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD159A9F1D1F8A89009A3329 /* LoginViewController.xib */; };
+		CD159AA51D1F8AB2009A3329 /* DesignSessionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AA31D1F8AB2009A3329 /* DesignSessionsViewController.m */; };
+		CD159AA61D1F8AB2009A3329 /* DesignSessionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD159AA41D1F8AB2009A3329 /* DesignSessionsViewController.xib */; };
+		CD159AAA1D1F8AE2009A3329 /* ChatBotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AA81D1F8AE2009A3329 /* ChatBotViewController.m */; };
+		CD159AAB1D1F8AE2009A3329 /* ChatBotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD159AA91D1F8AE2009A3329 /* ChatBotViewController.xib */; };
+		CD159AAF1D1F8B2C009A3329 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AAD1D1F8B2C009A3329 /* TableViewCell.m */; };
+		CD159AB01D1F8B2C009A3329 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD159AAE1D1F8B2C009A3329 /* TableViewCell.xib */; };
+		CD159AB51D1F967D009A3329 /* ChatSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AB21D1F967D009A3329 /* ChatSettingsViewController.m */; };
+		CD159AB61D1F967D009A3329 /* NSUserDefaults+ChatSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AB41D1F967D009A3329 /* NSUserDefaults+ChatSettings.m */; };
+		CD159AC81D1F9931009A3329 /* ChatMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AC51D1F9931009A3329 /* ChatMessagesViewController.m */; };
+		CD159AC91D1F9931009A3329 /* ChatModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159AC71D1F9931009A3329 /* ChatModelData.m */; };
+		CD159ACB1D1F99C3009A3329 /* JSQMessagesViewController in Resources */ = {isa = PBXBuildFile; fileRef = CD159ACA1D1F99C3009A3329 /* JSQMessagesViewController */; };
+		CD159ACE1D1FC378009A3329 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD159ACD1D1FC378009A3329 /* BackgroundLayer.m */; };
 		CDC66FC91D1F7A0A00FD8FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC66FC81D1F7A0A00FD8FA2 /* main.m */; };
 		CDC66FCC1D1F7A0A00FD8FA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC66FCB1D1F7A0A00FD8FA2 /* AppDelegate.m */; };
 		CDC66FCF1D1F7A0A00FD8FA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC66FCE1D1F7A0A00FD8FA2 /* ViewController.m */; };
@@ -15,6 +33,7 @@
 		CDC66FD71D1F7A0A00FD8FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC66FD51D1F7A0A00FD8FA2 /* LaunchScreen.storyboard */; };
 		CDC66FE21D1F7A0A00FD8FA2 /* stella_botTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC66FE11D1F7A0A00FD8FA2 /* stella_botTests.m */; };
 		CDC66FED1D1F7A0A00FD8FA2 /* stella_botUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC66FEC1D1F7A0A00FD8FA2 /* stella_botUITests.m */; };
+		EBD9CB55F071CA596EA22E5E /* libPods-stella-botUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A559800E69E2B6B19478CDD /* libPods-stella-botUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2781C45A9CC24B07C96F62D7 /* Pods-stella-botUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stella-botUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stella-botUITests/Pods-stella-botUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		282A97340F9AD8D5197B12BE /* Pods-stella-botUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stella-botUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stella-botUITests/Pods-stella-botUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3738A4F5255CCBF16E0499B2 /* Pods-stella-bot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stella-bot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stella-bot/Pods-stella-bot.debug.xcconfig"; sourceTree = "<group>"; };
+		38AE02EE9322BEC61388AA28 /* Pods-stella-botTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stella-botTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stella-botTests/Pods-stella-botTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A559800E69E2B6B19478CDD /* libPods-stella-botUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stella-botUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADE36A662BA81955E1110BE /* Pods-stella-botTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stella-botTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stella-botTests/Pods-stella-botTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0BA09F404BBDB71DBCBDF0B /* libPods-stella-botTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stella-botTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4BFC26BBEA2446BDB80C05 /* Pods-stella-bot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stella-bot.release.xcconfig"; path = "Pods/Target Support Files/Pods-stella-bot/Pods-stella-bot.release.xcconfig"; sourceTree = "<group>"; };
+		CD159A991D1F81CE009A3329 /* icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = icon.svg; path = ../../../Downloads/icon.svg; sourceTree = "<group>"; };
+		CD159A9B1D1F821D009A3329 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/icon.png; sourceTree = "<group>"; };
+		CD159A9D1D1F8A89009A3329 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CD159A9E1D1F8A89009A3329 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CD159A9F1D1F8A89009A3329 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CD159AA21D1F8AB2009A3329 /* DesignSessionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignSessionsViewController.h; sourceTree = "<group>"; };
+		CD159AA31D1F8AB2009A3329 /* DesignSessionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignSessionsViewController.m; sourceTree = "<group>"; };
+		CD159AA41D1F8AB2009A3329 /* DesignSessionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignSessionsViewController.xib; sourceTree = "<group>"; };
+		CD159AA71D1F8AE2009A3329 /* ChatBotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBotViewController.h; sourceTree = "<group>"; };
+		CD159AA81D1F8AE2009A3329 /* ChatBotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBotViewController.m; sourceTree = "<group>"; };
+		CD159AA91D1F8AE2009A3329 /* ChatBotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatBotViewController.xib; sourceTree = "<group>"; };
+		CD159AAC1D1F8B2C009A3329 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		CD159AAD1D1F8B2C009A3329 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		CD159AAE1D1F8B2C009A3329 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CD159AB11D1F967D009A3329 /* ChatSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSettingsViewController.h; sourceTree = "<group>"; };
+		CD159AB21D1F967D009A3329 /* ChatSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSettingsViewController.m; sourceTree = "<group>"; };
+		CD159AB31D1F967D009A3329 /* NSUserDefaults+ChatSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ChatSettings.h"; sourceTree = "<group>"; };
+		CD159AB41D1F967D009A3329 /* NSUserDefaults+ChatSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ChatSettings.m"; sourceTree = "<group>"; };
+		CD159AC41D1F9931009A3329 /* ChatMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessagesViewController.h; sourceTree = "<group>"; };
+		CD159AC51D1F9931009A3329 /* ChatMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessagesViewController.m; sourceTree = "<group>"; };
+		CD159AC61D1F9931009A3329 /* ChatModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModelData.h; sourceTree = "<group>"; };
+		CD159AC71D1F9931009A3329 /* ChatModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModelData.m; sourceTree = "<group>"; };
+		CD159ACA1D1F99C3009A3329 /* JSQMessagesViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSQMessagesViewController; sourceTree = "<group>"; };
+		CD159ACC1D1FC378009A3329 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		CD159ACD1D1FC378009A3329 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 		CDC66FC41D1F7A0A00FD8FA2 /* stella-bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stella-bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC66FC81D1F7A0A00FD8FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDC66FCA1D1F7A0A00FD8FA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +103,7 @@
 		CDC66FE81D1F7A0A00FD8FA2 /* stella-botUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stella-botUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC66FEC1D1F7A0A00FD8FA2 /* stella_botUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stella_botUITests.m; sourceTree = "<group>"; };
 		CDC66FEE1D1F7A0A00FD8FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8640DD1048A19EEB68EE97 /* libPods-stella-bot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stella-bot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43975D35363A893077DFC8FB /* libPods-stella-bot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF80069EF9FFF5BEA09CB11 /* libPods-stella-botTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +127,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD9CB55F071CA596EA22E5E /* libPods-stella-botUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01BE8143B3980A54AEB81BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3738A4F5255CCBF16E0499B2 /* Pods-stella-bot.debug.xcconfig */,
+				BE4BFC26BBEA2446BDB80C05 /* Pods-stella-bot.release.xcconfig */,
+				38AE02EE9322BEC61388AA28 /* Pods-stella-botTests.debug.xcconfig */,
+				4ADE36A662BA81955E1110BE /* Pods-stella-botTests.release.xcconfig */,
+				2781C45A9CC24B07C96F62D7 /* Pods-stella-botUITests.debug.xcconfig */,
+				282A97340F9AD8D5197B12BE /* Pods-stella-botUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B87A3C9E86FBAE963B2CAFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8640DD1048A19EEB68EE97 /* libPods-stella-bot.a */,
+				B0BA09F404BBDB71DBCBDF0B /* libPods-stella-botTests.a */,
+				4A559800E69E2B6B19478CDD /* libPods-stella-botUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDC66FBB1D1F7A0A00FD8FA2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +164,8 @@
 				CDC66FE01D1F7A0A00FD8FA2 /* stella-botTests */,
 				CDC66FEB1D1F7A0A00FD8FA2 /* stella-botUITests */,
 				CDC66FC51D1F7A0A00FD8FA2 /* Products */,
+				A01BE8143B3980A54AEB81BB /* Pods */,
+				B87A3C9E86FBAE963B2CAFF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +182,40 @@
 		CDC66FC61D1F7A0A00FD8FA2 /* stella-bot */ = {
 			isa = PBXGroup;
 			children = (
+				CD159ACA1D1F99C3009A3329 /* JSQMessagesViewController */,
+				CD159AC41D1F9931009A3329 /* ChatMessagesViewController.h */,
+				CD159AC51D1F9931009A3329 /* ChatMessagesViewController.m */,
+				CD159AC61D1F9931009A3329 /* ChatModelData.h */,
+				CD159AC71D1F9931009A3329 /* ChatModelData.m */,
+				CD159AB11D1F967D009A3329 /* ChatSettingsViewController.h */,
+				CD159AB21D1F967D009A3329 /* ChatSettingsViewController.m */,
+				CD159AB31D1F967D009A3329 /* NSUserDefaults+ChatSettings.h */,
+				CD159AB41D1F967D009A3329 /* NSUserDefaults+ChatSettings.m */,
+				CD159A9B1D1F821D009A3329 /* icon.png */,
+				CD159A991D1F81CE009A3329 /* icon.svg */,
 				CDC66FCA1D1F7A0A00FD8FA2 /* AppDelegate.h */,
 				CDC66FCB1D1F7A0A00FD8FA2 /* AppDelegate.m */,
 				CDC66FCD1D1F7A0A00FD8FA2 /* ViewController.h */,
 				CDC66FCE1D1F7A0A00FD8FA2 /* ViewController.m */,
+				CD159A9D1D1F8A89009A3329 /* LoginViewController.h */,
+				CD159A9E1D1F8A89009A3329 /* LoginViewController.m */,
+				CD159A9F1D1F8A89009A3329 /* LoginViewController.xib */,
+				CD159AA21D1F8AB2009A3329 /* DesignSessionsViewController.h */,
+				CD159AA31D1F8AB2009A3329 /* DesignSessionsViewController.m */,
+				CD159AA41D1F8AB2009A3329 /* DesignSessionsViewController.xib */,
+				CD159AA71D1F8AE2009A3329 /* ChatBotViewController.h */,
+				CD159AA81D1F8AE2009A3329 /* ChatBotViewController.m */,
+				CD159AA91D1F8AE2009A3329 /* ChatBotViewController.xib */,
+				CD159AAC1D1F8B2C009A3329 /* TableViewCell.h */,
+				CD159AAD1D1F8B2C009A3329 /* TableViewCell.m */,
+				CD159AAE1D1F8B2C009A3329 /* TableViewCell.xib */,
 				CDC66FD01D1F7A0A00FD8FA2 /* Main.storyboard */,
 				CDC66FD31D1F7A0A00FD8FA2 /* Assets.xcassets */,
 				CDC66FD51D1F7A0A00FD8FA2 /* LaunchScreen.storyboard */,
 				CDC66FD81D1F7A0A00FD8FA2 /* Info.plist */,
 				CDC66FC71D1F7A0A00FD8FA2 /* Supporting Files */,
+				CD159ACC1D1FC378009A3329 /* BackgroundLayer.h */,
+				CD159ACD1D1FC378009A3329 /* BackgroundLayer.m */,
 			);
 			path = "stella-bot";
 			sourceTree = "<group>";
@@ -147,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC66FF11D1F7A0A00FD8FA2 /* Build configuration list for PBXNativeTarget "stella-bot" */;
 			buildPhases = (
+				F914DEFE57F981611595AFA0 /* [CP] Check Pods Manifest.lock */,
 				CDC66FC01D1F7A0A00FD8FA2 /* Sources */,
 				CDC66FC11D1F7A0A00FD8FA2 /* Frameworks */,
 				CDC66FC21D1F7A0A00FD8FA2 /* Resources */,
+				D2836099199FF6D3D45BB1E4 /* [CP] Embed Pods Frameworks */,
+				2B55486670B228CDB71B790F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC66FF41D1F7A0A00FD8FA2 /* Build configuration list for PBXNativeTarget "stella-botTests" */;
 			buildPhases = (
+				C9C4E6B24CB381ABEE949E8E /* [CP] Check Pods Manifest.lock */,
 				CDC66FD91D1F7A0A00FD8FA2 /* Sources */,
 				CDC66FDA1D1F7A0A00FD8FA2 /* Frameworks */,
 				CDC66FDB1D1F7A0A00FD8FA2 /* Resources */,
+				62F3A3C90B59155E62D150BA /* [CP] Embed Pods Frameworks */,
+				D30E30D7A4474D0E3E4158D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC66FF71D1F7A0A00FD8FA2 /* Build configuration list for PBXNativeTarget "stella-botUITests" */;
 			buildPhases = (
+				3BA3BDCF26723878A14FC7F7 /* [CP] Check Pods Manifest.lock */,
 				CDC66FE41D1F7A0A00FD8FA2 /* Sources */,
 				CDC66FE51D1F7A0A00FD8FA2 /* Frameworks */,
 				CDC66FE61D1F7A0A00FD8FA2 /* Resources */,
+				4D347CD76D462F76AE770AA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +321,7 @@
 				TargetAttributes = {
 					CDC66FC31D1F7A0A00FD8FA2 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HF8E39XLC8;
 					};
 					CDC66FDC1D1F7A0A00FD8FA2 = {
 						CreatedOnToolsVersion = 7.3;
@@ -244,8 +359,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC66FD71D1F7A0A00FD8FA2 /* LaunchScreen.storyboard in Resources */,
+				CD159A9C1D1F821D009A3329 /* icon.png in Resources */,
+				CD159AA11D1F8A89009A3329 /* LoginViewController.xib in Resources */,
 				CDC66FD41D1F7A0A00FD8FA2 /* Assets.xcassets in Resources */,
+				CD159AB01D1F8B2C009A3329 /* TableViewCell.xib in Resources */,
+				CD159AA61D1F8AB2009A3329 /* DesignSessionsViewController.xib in Resources */,
+				CD159ACB1D1F99C3009A3329 /* JSQMessagesViewController in Resources */,
 				CDC66FD21D1F7A0A00FD8FA2 /* Main.storyboard in Resources */,
+				CD159AAB1D1F8AE2009A3329 /* ChatBotViewController.xib in Resources */,
+				CD159A9A1D1F81CE009A3329 /* icon.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +387,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B55486670B228CDB71B790F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stella-bot/Pods-stella-bot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA3BDCF26723878A14FC7F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D347CD76D462F76AE770AA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stella-botUITests/Pods-stella-botUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F3A3C90B59155E62D150BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stella-botTests/Pods-stella-botTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C4E6B24CB381ABEE949E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2836099199FF6D3D45BB1E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stella-bot/Pods-stella-bot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30E30D7A4474D0E3E4158D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stella-botTests/Pods-stella-botTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F914DEFE57F981611595AFA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDC66FC01D1F7A0A00FD8FA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD159AC81D1F9931009A3329 /* ChatMessagesViewController.m in Sources */,
+				CD159AAF1D1F8B2C009A3329 /* TableViewCell.m in Sources */,
+				CD159AC91D1F9931009A3329 /* ChatModelData.m in Sources */,
+				CD159AAA1D1F8AE2009A3329 /* ChatBotViewController.m in Sources */,
+				CD159AA51D1F8AB2009A3329 /* DesignSessionsViewController.m in Sources */,
+				CD159ACE1D1FC378009A3329 /* BackgroundLayer.m in Sources */,
+				CD159AA01D1F8A89009A3329 /* LoginViewController.m in Sources */,
 				CDC66FCF1D1F7A0A00FD8FA2 /* ViewController.m in Sources */,
+				CD159AB61D1F967D009A3329 /* NSUserDefaults+ChatSettings.m in Sources */,
 				CDC66FCC1D1F7A0A00FD8FA2 /* AppDelegate.m in Sources */,
 				CDC66FC91D1F7A0A00FD8FA2 /* main.m in Sources */,
+				CD159AB51D1F967D009A3329 /* ChatSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,28 +667,37 @@
 		};
 		CDC66FF21D1F7A0A00FD8FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3738A4F5255CCBF16E0499B2 /* Pods-stella-bot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "stella-bot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trial.stella-bot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		CDC66FF31D1F7A0A00FD8FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4BFC26BBEA2446BDB80C05 /* Pods-stella-bot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "stella-bot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trial.stella-bot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		CDC66FF51D1F7A0A00FD8FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AE02EE9322BEC61388AA28 /* Pods-stella-botTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "stella-botTests/Info.plist";
@@ -447,6 +710,7 @@
 		};
 		CDC66FF61D1F7A0A00FD8FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADE36A662BA81955E1110BE /* Pods-stella-botTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "stella-botTests/Info.plist";
@@ -459,6 +723,7 @@
 		};
 		CDC66FF81D1F7A0A00FD8FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2781C45A9CC24B07C96F62D7 /* Pods-stella-botUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "stella-botUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +735,7 @@
 		};
 		CDC66FF91D1F7A0A00FD8FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282A97340F9AD8D5197B12BE /* Pods-stella-botUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "stella-botUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +764,7 @@
 				CDC66FF31D1F7A0A00FD8FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC66FF41D1F7A0A00FD8FA2 /* Build configuration list for PBXNativeTarget "stella-botTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +773,7 @@
 				CDC66FF61D1F7A0A00FD8FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC66FF71D1F7A0A00FD8FA2 /* Build configuration list for PBXNativeTarget "stella-botUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +782,7 @@
 				CDC66FF91D1F7A0A00FD8FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

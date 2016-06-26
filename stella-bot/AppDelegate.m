@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <IMFCore/IMFCore.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[IMFClient sharedInstance]
+     initializeWithBackendRoute:@"http://stella-bot.mybluemix.net"
+     backendGUID:@"789594af-a112-4ffd-b712-615d24ad0009"];
+     NSString *requestPath = [NSString stringWithFormat:@"%@/protected",
+                             [[IMFClient sharedInstance] backendRoute]];
+    
+    IMFResourceRequest *request =  [IMFResourceRequest requestWithPath:requestPath
+                                                                method:@"GET"];
+    
+    [request sendWithCompletionHandler:^(IMFResponse *response, NSError *error) {
+        if (error){
+            NSLog(@"Error :: %@", [error description]);
+        } else {
+            NSLog(@"Response :: %@", [response responseText]);
+        }
+    }];
+
     return YES;
 }
 
